@@ -12082,11 +12082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DucLM\\DDDProject\\FirstProject\\FirstProject\\FirstProject.csproj",
+      "projectUniqueName": "C:\\DucLM1\\FirstProject\\FirstProject\\FirstProject.csproj",
       "projectName": "FirstProject",
-      "projectPath": "C:\\DucLM\\DDDProject\\FirstProject\\FirstProject\\FirstProject.csproj",
+      "projectPath": "C:\\DucLM1\\FirstProject\\FirstProject\\FirstProject.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\DucLM\\DDDProject\\FirstProject\\FirstProject\\obj\\",
+      "outputPath": "C:\\DucLM1\\FirstProject\\FirstProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
