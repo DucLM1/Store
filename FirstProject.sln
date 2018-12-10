@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticSearch", "ElasticSea
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7145DD6B-B211-41C5-BC2F-64730360E191}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructutes", "Infrastructutes", "{427FB3C9-1D9E-4300-8626-DC2A48B246E5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructutes", "4 - Infrastructutes", "{427FB3C9-1D9E-4300-8626-DC2A48B246E5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{FE9BDE4B-1852-4320-A2C1-96A885F8719F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Applications", "2 - Applications", "{FE9BDE4B-1852-4320-A2C1-96A885F8719F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{33EA64F3-C76E-43B2-B30D-2E31DCB2752A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domains", "3 - Domains", "{33EA64F3-C76E-43B2-B30D-2E31DCB2752A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.InfrastructureLayer", "FirstProject.InfrastructureLayer\FirstProject.InfrastructureLayer.csproj", "{C07B6798-3CF8-4404-A4ED-8C1CD177D346}"
 EndProject
@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.Data", "FirstP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.DomainLayer", "FirstProject.DomainLayer\FirstProject.DomainLayer.csproj", "{8F0C90F3-0B04-41E4-8F6D-9135BA800490}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{41A661EE-FBA0-4FC9-9A2D-F9D77C3A2741}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{41A661EE-FBA0-4FC9-9A2D-F9D77C3A2741}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.Utilities", "FirstProject.Utilities\FirstProject.Utilities.csproj", "{26619B0B-60D0-4055-AB40-DEE8691F14FC}"
 EndProject
