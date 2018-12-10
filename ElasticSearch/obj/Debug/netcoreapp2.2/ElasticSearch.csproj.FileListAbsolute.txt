@@ -1,0 +1,11 @@
+C:\DucLM1\FirstProject\ElasticSearch\bin\Debug\netcoreapp2.2\ElasticSearch.deps.json
+C:\DucLM1\FirstProject\ElasticSearch\bin\Debug\netcoreapp2.2\ElasticSearch.runtimeconfig.json
+C:\DucLM1\FirstProject\ElasticSearch\bin\Debug\netcoreapp2.2\ElasticSearch.runtimeconfig.dev.json
+C:\DucLM1\FirstProject\ElasticSearch\bin\Debug\netcoreapp2.2\ElasticSearch.dll
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.csprojAssemblyReference.cache
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.csproj.CoreCompileInputs.cache
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.RazorAssemblyInfo.cache
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.RazorAssemblyInfo.cs
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.AssemblyInfoInputs.cache
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.AssemblyInfo.cs
+C:\DucLM1\FirstProject\ElasticSearch\obj\Debug\netcoreapp2.2\ElasticSearch.RazorTargetAssemblyInfo.cache

@@ -7386,7 +7386,6 @@
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
@@ -9359,7 +9358,6 @@
       "type": "package",
       "path": "system.net.http/4.3.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -12131,11 +12129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DucLM1\\FirstProject\\FirstProject\\FirstProject.csproj",
-      "projectName": "FirstProject",
-      "projectPath": "C:\\DucLM1\\FirstProject\\FirstProject\\FirstProject.csproj",
+      "projectUniqueName": "C:\\DucLM1\\FirstProject\\ElasticSearch\\ElasticSearch.csproj",
+      "projectName": "ElasticSearch",
+      "projectPath": "C:\\DucLM1\\FirstProject\\ElasticSearch\\ElasticSearch.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\DucLM1\\FirstProject\\FirstProject\\obj\\",
+      "outputPath": "C:\\DucLM1\\FirstProject\\ElasticSearch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

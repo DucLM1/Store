@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject", "FirstProject\FirstProject.csproj", "{3B7A3608-17CF-4B77-8A56-059572365081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject", "FirstProject\FirstProject.csproj", "{3B7A3608-17CF-4B77-8A56-059572365081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearch", "ElasticSearch\ElasticSearch.csproj", "{4EE22769-0E36-4601-B666-6C0F3FD925A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3B7A3608-17CF-4B77-8A56-059572365081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7A3608-17CF-4B77-8A56-059572365081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7A3608-17CF-4B77-8A56-059572365081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE22769-0E36-4601-B666-6C0F3FD925A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE22769-0E36-4601-B666-6C0F3FD925A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE22769-0E36-4601-B666-6C0F3FD925A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE22769-0E36-4601-B666-6C0F3FD925A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
