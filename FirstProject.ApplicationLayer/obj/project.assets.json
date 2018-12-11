@@ -1493,6 +1493,9 @@
       "FirstProject.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "FirstProject.InfrastructureLayer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/FirstProject.Data.dll": {}
         },
