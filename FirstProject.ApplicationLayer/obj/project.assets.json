@@ -207,6 +207,51 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "FirstProject.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/FirstProject.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstProject.Data.dll": {}
+        }
+      },
+      "FirstProject.Data.EF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "FirstProject.Data": "1.0.0",
+          "FirstProject.InfrastructureLayer": "1.0.0",
+          "FirstProject.Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FirstProject.Data.EF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstProject.Data.EF.dll": {}
+        }
+      },
+      "FirstProject.InfrastructureLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/FirstProject.InfrastructureLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstProject.InfrastructureLayer.dll": {}
+        }
+      },
+      "FirstProject.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/FirstProject.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstProject.Utilities.dll": {}
+        }
       }
     }
   },
@@ -536,7 +581,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/2.0.0": {
-      "sha512": "odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
+      "sha512": "rJJD/NPatfDry7SuNM7YvjqbJD9u1fs8h0hGI0nft0lnCFfEtPuX5N29Akja0ATbjQxzWn4P0s5gUSeOxEqROQ==",
       "type": "package",
       "path": "microsoft.netcore.targets/2.0.0",
       "files": [
@@ -679,10 +724,33 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "FirstProject.Data/1.0.0": {
+      "type": "project",
+      "path": "../FirstProject.Data/FirstProject.Data.csproj",
+      "msbuildProject": "../FirstProject.Data/FirstProject.Data.csproj"
+    },
+    "FirstProject.Data.EF/1.0.0": {
+      "type": "project",
+      "path": "../FirstProject.Data.EF/FirstProject.Data.EF.csproj",
+      "msbuildProject": "../FirstProject.Data.EF/FirstProject.Data.EF.csproj"
+    },
+    "FirstProject.InfrastructureLayer/1.0.0": {
+      "type": "project",
+      "path": "../FirstProject.InfrastructureLayer/FirstProject.InfrastructureLayer.csproj",
+      "msbuildProject": "../FirstProject.InfrastructureLayer/FirstProject.InfrastructureLayer.csproj"
+    },
+    "FirstProject.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../FirstProject.Utilities/FirstProject.Utilities.csproj",
+      "msbuildProject": "../FirstProject.Utilities/FirstProject.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "FirstProject.Data >= 1.0.0",
+      "FirstProject.Data.EF >= 1.0.0",
+      "FirstProject.Utilities >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -693,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\DucLM1\\FirstProject\\FirstProject.ApplicationLayer\\FirstProject.ApplicationLayer.csproj",
+      "projectUniqueName": "C:\\DucLM1\\FirstProject\\FirstProject.ApplicationLayer\\FirstProject.ApplicationLayer.csproj",
       "projectName": "FirstProject.ApplicationLayer",
-      "projectPath": "c:\\DucLM1\\FirstProject\\FirstProject.ApplicationLayer\\FirstProject.ApplicationLayer.csproj",
+      "projectPath": "C:\\DucLM1\\FirstProject\\FirstProject.ApplicationLayer\\FirstProject.ApplicationLayer.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "c:\\DucLM1\\FirstProject\\FirstProject.ApplicationLayer\\obj\\",
+      "outputPath": "C:\\DucLM1\\FirstProject\\FirstProject.ApplicationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -715,7 +783,17 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\DucLM1\\FirstProject\\FirstProject.Data.EF\\FirstProject.Data.EF.csproj": {
+              "projectPath": "C:\\DucLM1\\FirstProject\\FirstProject.Data.EF\\FirstProject.Data.EF.csproj"
+            },
+            "C:\\DucLM1\\FirstProject\\FirstProject.Data\\FirstProject.Data.csproj": {
+              "projectPath": "C:\\DucLM1\\FirstProject\\FirstProject.Data\\FirstProject.Data.csproj"
+            },
+            "C:\\DucLM1\\FirstProject\\FirstProject.Utilities\\FirstProject.Utilities.csproj": {
+              "projectPath": "C:\\DucLM1\\FirstProject\\FirstProject.Utilities\\FirstProject.Utilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

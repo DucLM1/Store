@@ -15,17 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Applications", "2 - App
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domains", "3 - Domains", "{33EA64F3-C76E-43B2-B30D-2E31DCB2752A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.InfrastructureLayer", "FirstProject.InfrastructureLayer\FirstProject.InfrastructureLayer.csproj", "{C07B6798-3CF8-4404-A4ED-8C1CD177D346}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject.InfrastructureLayer", "FirstProject.InfrastructureLayer\FirstProject.InfrastructureLayer.csproj", "{C07B6798-3CF8-4404-A4ED-8C1CD177D346}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.ApplicationLayer", "FirstProject.ApplicationLayer\FirstProject.ApplicationLayer.csproj", "{74D5F8D4-02ED-400B-9694-2125C183F338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject.ApplicationLayer", "FirstProject.ApplicationLayer\FirstProject.ApplicationLayer.csproj", "{74D5F8D4-02ED-400B-9694-2125C183F338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.Data", "FirstProject.Data\FirstProject.Data.csproj", "{9E00706F-D867-44E1-93C3-529DA64D341F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject.Data", "FirstProject.Data\FirstProject.Data.csproj", "{9E00706F-D867-44E1-93C3-529DA64D341F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.DomainLayer", "FirstProject.DomainLayer\FirstProject.DomainLayer.csproj", "{8F0C90F3-0B04-41E4-8F6D-9135BA800490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject.DomainLayer", "FirstProject.DomainLayer\FirstProject.DomainLayer.csproj", "{8F0C90F3-0B04-41E4-8F6D-9135BA800490}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{41A661EE-FBA0-4FC9-9A2D-F9D77C3A2741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.Utilities", "FirstProject.Utilities\FirstProject.Utilities.csproj", "{26619B0B-60D0-4055-AB40-DEE8691F14FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstProject.Utilities", "FirstProject.Utilities\FirstProject.Utilities.csproj", "{26619B0B-60D0-4055-AB40-DEE8691F14FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProject.Data.EF", "FirstProject.Data.EF\FirstProject.Data.EF.csproj", "{5426FC60-CCB0-4316-AA50-2748CC92DC5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{26619B0B-60D0-4055-AB40-DEE8691F14FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26619B0B-60D0-4055-AB40-DEE8691F14FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26619B0B-60D0-4055-AB40-DEE8691F14FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5426FC60-CCB0-4316-AA50-2748CC92DC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5426FC60-CCB0-4316-AA50-2748CC92DC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5426FC60-CCB0-4316-AA50-2748CC92DC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5426FC60-CCB0-4316-AA50-2748CC92DC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{8F0C90F3-0B04-41E4-8F6D-9135BA800490} = {33EA64F3-C76E-43B2-B30D-2E31DCB2752A}
 		{41A661EE-FBA0-4FC9-9A2D-F9D77C3A2741} = {7145DD6B-B211-41C5-BC2F-64730360E191}
 		{26619B0B-60D0-4055-AB40-DEE8691F14FC} = {427FB3C9-1D9E-4300-8626-DC2A48B246E5}
+		{5426FC60-CCB0-4316-AA50-2748CC92DC5B} = {33EA64F3-C76E-43B2-B30D-2E31DCB2752A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDCA8877-A945-4BB6-83CF-D72B796AC222}
