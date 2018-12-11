@@ -7,7 +7,10 @@
   <ItemGroup>
     <Folder Include="Enums\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="ShareKernels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Redis" Version="5.4.0" />
   </ItemGroup>
 
 </Project>

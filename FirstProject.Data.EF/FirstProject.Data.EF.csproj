@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstProject.Data\FirstProject.Data.csproj" />
+    <ProjectReference Include="..\FirstProject.InfrastructureLayer\FirstProject.InfrastructureLayer.csproj" />
+    <ProjectReference Include="..\FirstProject.Utilities\FirstProject.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

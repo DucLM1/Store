@@ -13,4 +13,13 @@
     <PackageReference Include="NEST" Version="6.4.0" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstProject.ApplicationLayer\FirstProject.ApplicationLayer.csproj" />
+    <ProjectReference Include="..\FirstProject.Data.EF\FirstProject.Data.EF.csproj" />
+    <ProjectReference Include="..\FirstProject.Data\FirstProject.Data.csproj" />
+    <ProjectReference Include="..\FirstProject.InfrastructureLayer\FirstProject.InfrastructureLayer.csproj" />
+    <ProjectReference Include="..\FirstProject.Utilities\FirstProject.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,6 @@
+C:\DucLM1\FirstProject\FirstProject.InfrastructureLayer\bin\Debug\netcoreapp2.2\FirstProject.InfrastructureLayer.deps.json
+C:\DucLM1\FirstProject\FirstProject.InfrastructureLayer\bin\Debug\netcoreapp2.2\FirstProject.InfrastructureLayer.dll
+C:\DucLM1\FirstProject\FirstProject.InfrastructureLayer\obj\Debug\netcoreapp2.2\FirstProject.InfrastructureLayer.csprojAssemblyReference.cache
+C:\DucLM1\FirstProject\FirstProject.InfrastructureLayer\obj\Debug\netcoreapp2.2\FirstProject.InfrastructureLayer.csproj.CoreCompileInputs.cache
+C:\DucLM1\FirstProject\FirstProject.InfrastructureLayer\obj\Debug\netcoreapp2.2\FirstProject.InfrastructureLayer.AssemblyInfoInputs.cache
+C:\DucLM1\FirstProject\FirstProject.InfrastructureLayer\obj\Debug\netcoreapp2.2\FirstProject.InfrastructureLayer.AssemblyInfo.cs
