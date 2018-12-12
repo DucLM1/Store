@@ -2,11 +2,16 @@
 using FirstProject.Data.Interfaces;
 using FirstProject.InfrastructureLayer.ShareKernels.Entities;
 using System;
+using System.Collections.Generic;
 
 namespace FirstProject.Data.Entities
 {
     public class ProductCategory : DbEntity<int>, IHasSeoMetaData, ISwitchable, ISortable, IDateTracking
     {
+        public ProductCategory()
+        {
+            Products = new List<Product>();
+        }
         public string Name { get; set; }
         public string Description { get; set; }
         public int? ParentId { get; set; }
@@ -21,5 +26,7 @@ namespace FirstProject.Data.Entities
         public int SortOrder { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime DateModified { get; set; }
+
+        public virtual ICollection<Product> Products { get; set; }
     }
 }
