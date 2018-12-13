@@ -7,6 +7,9 @@
   <ItemGroup>
     <Folder Include="Enums\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="PostgresDb\Commands\" />
+    <Folder Include="PostgresDb\Helpers\" />
+    <Folder Include="PostgresDb\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
